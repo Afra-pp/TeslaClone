@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "M plus 1",sans-serif;
+    scroll-behavior:smooth;
+    letter-spacing:1px ;
+  
+}
+body{
+    width: 100%;
+    height: auto;
+}
+
+.teslalogo{
+    height: 20px;
+    width:120;
+
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.center-nav{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0 10px;
+    
+}
+.menu-list>li{
+    margin: 0 10px;
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.header-list>li{
+    margin: 0 10px;
+    color: black;
+}
+.header-list>li>a>i{
+    color: black;
+}
+.model1{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.landing-video {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    
+}
+.model2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Homepage-Model-Y-Desktop-US-v2.avif');
+    background-position: center;
+    background-size: cover;
+    
+}
+.model3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Homepage-Model-X-Desktop-US.avif');
+    background-position: center;
+    background-size: cover;
+    
+}.model4{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Homepage-Model-S-Desktop-US.avif');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.model5{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imG/Homepage-SolarPanels-01-Desktop.avif');
+    background-position: center;
+    background-size: cover;
+    
+}
+.model6{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imG/Homepage-SolarRoof-Desktop-US.avif');
+    background-position: center;
+    background-size: cover;
+    
+}
+.model7{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Homepage-Powerwall-Desktop-US.avif');
+    background-position: center;
+    background-size: cover;
+    
+}
+.model8{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imG/Homepage-Accessories-Desktop-US.avif');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.header{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    color: white;
+
+}
+h1{
+   font-size: 48px;
+}
+.header>h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.header>P{
+    text-decoration: underline;
+}
+.model3,.model4,.model6>.header>h2{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding-top: 300px;
+}
+span{
+    width: 280px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.Order{
+    background-color: #1e57bb;
+}
+.Order1{
+    background-color: #e0e2e6;
+}
+.footer{
+    width:100% ;
+    height:auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    font-size: 12px;
+    padding: 50px 200px;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.footer-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    
+}
+.foot{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 0 10px;
+ text-align: center;
+
+}
+.footer>p{
+    text-align: center;
+
+    margin: 0 100px;
+}
+
+.button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding-top: 350px;
+}
